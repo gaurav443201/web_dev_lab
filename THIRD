@@ -1,0 +1,34 @@
+<html lang="en">
+<center>
+<body style="background-color: white;"></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICAL 3</title>
+</head>
+<h1>LOGIN FORM </h1>
+
+  <form action="https://www.geeksforgeeks.org/" target="_blank" >
+  <img src="1.avif" width="100" height="100" alt="Avatar" class="avatar">
+  <dl></dl>
+  <div class="container">
+    <label for="name"><b>NAME : </b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+    <dl></dl>
+    <label for="email"><b>EMAIL : </b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <dl></dl>
+    <label for="gender"><b>GENDER : </b></label>
+    <input type="radio" name="gender" value="male" >Male 
+    <input type="radio" name="gender" value="female" >Female
+    <dl></dl>
+    <label for="bdate"><b> DATE OF BIRTH : </b></label>
+    <input type="date" placeholder=" Choose Date of Birth" name="bdate" required>
+    <dl></dl>
+    <button type="submit">SUBMIT</button>
+    <label>
+
+</form>
+
+</center>
+</html>
