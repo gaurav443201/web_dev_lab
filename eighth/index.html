@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .calculator {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            text-align: center;
+        }
+
+        input, select, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        #clearBtn {
+            background: #dc3545;
+        }
+
+        #clearBtn:hover {
+            background: #a71d2a;
+        }
+
+        #result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="calculator">
+    <h2>Calculator</h2>
+
+    <input type="number" id="num1" placeholder="First number">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">×</option>
+        <option value="/">÷</option>
+    </select>
+    <input type="number" id="num2" placeholder="Second number">
+
+    <br>
+
+    <button onclick="calculate()">Calculate</button>
+    <button id="clearBtn" onclick="clearCalculator()">Clear</button>
+
+    <p id="result">Result: </p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
